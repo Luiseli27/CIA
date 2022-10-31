@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+}
+body {
+    background: cadetblue;
+    color: rgb(240, 240, 240);
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+h1 strong{
+    color: #99cc;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+/*
+.padre {
+    background: #99cc;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.hijo {
+    background: #99cc;
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgba(128, 128, 201, 0.8);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.aplicar {
+    background: rgba(105, 105, 216, 0.8);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+}
+.aplicar img{
+    height: 90%;
+    width: 75%;
+}
+.container1 {
+    display: flex;
+    background: rgba(105, 105, 216, 0.8);
+}
+.container2 {
+    background: #99cc;
+}
+.aplicar-detalles {
+    background: #99cc;
+    height: inherit;
+    width: 50%;
+    border: 2px rgb(31, 9, 93);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.header {
+    background: rgb(63, 104, 106);
+    color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.header li {
+    height: inherit;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.logo img {
+    width: 100px;
+}
+.menu {
+    height: inherit;
+}
+img{
+    width: 25%;
+}
+.principal {
+    background: orange;
+    background-image: url('img/Covid\ fondo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Notable', sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+.principal img {
+    width: 300px;
+}
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: #99cc;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.somos {
+    background: rgb(31, 9, 93);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+}
+.somos h2 {
+    color: #99cc;
+    margin-bottom: 10px;
+}
+.somos p {
+    margin-bottom: 20px;
+}
+.principal3 {
+    background: seagreen;
+    color: black;
+    padding: 25px 100px 200px 50px;
+    margin: 100px 50px 25px 200px;
+}
